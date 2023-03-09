@@ -21,4 +21,4 @@ const countLetters = (string) => {
 }
 
 
-console.log(countLetters('this a robbery'));
+console.log(countLetters('lighthouse in the house'));

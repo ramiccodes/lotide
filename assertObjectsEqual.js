@@ -39,3 +39,5 @@ const assertObjectsEqual = (obj1, obj2) => {
 
 console.log(assertObjectsEqual({a: '1', b: 2}, {b: 2, a: '1'}));
 console.log(assertObjectsEqual(multiColorShirtObject, anotherMultiColorShirtObject));
+
+module.exports = eqObjects;

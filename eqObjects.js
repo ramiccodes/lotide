@@ -45,3 +45,5 @@ console.log(eqObjects(shirtObject , anotherShirtObject));
 const multiColorShirtObject = { colors: ["red", "blue"], size: "medium" };
 const anotherMultiColorShirtObject = { size: "medium", colors: ["red", "blue"] };
 console.log(eqObjects(multiColorShirtObject  , anotherMultiColorShirtObject));
+
+module.exports = eqObjects;

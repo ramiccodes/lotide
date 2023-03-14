@@ -34,3 +34,4 @@ console.log(map(words, logWords));
 
 console.log(eqArrays(map(words, logWords), ["ground bazinga", "control bazinga", "to bazinga", "major bazinga", "tom bazinga"]));
 
+module.exports = map;
